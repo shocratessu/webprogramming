@@ -26,24 +26,34 @@ body {
     margin-right: 10px;
 }
 
-.navigation, .headtitle{
+.headtitle{
     width: 460px;
     font-family: 'Signika', sans-serif;
     font-weight: 100;
 }
 
 .navigation{
+    width: 320px;
     display: inline;
     float: left;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
     background: #bee0ff;
-    width: 480px;
+}
+
+.navigation a{
+    font-family: 'Signika', sans-serif;
+    font-weight: 100;
+    color: #4ca8f3;
 }
 
 .navigation:hover{
     background-color: #4ca8f3;
+}
+
+.navigation a:hover{
+    color: white;
 }
 
 .light{
@@ -117,3 +127,39 @@ body {
     width: 0;
     height: 0;
 }
+
+.contactform{
+    margin: 2em;
+    padding-bottom: 2em;;
+}
+
+fieldset {
+	border:0;
+	padding:10px;
+	margin-bottom:10px;
+	background-color: rgba(179,219,254,.3);
+	}
+legend {
+	padding:5px 10px;
+	background-color:#4ca8f3;
+	color:#FFF;
+	}
+
+input[type=submit]{
+    background: #80d217;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    float: right;
+}
+
+input[type=submit]:hover{
+    background: #2e4c08;
+}
+
+textarea{
+    width: 100%;
+    opacity: .7;
+}
+
+input[type=text], input[type=checkbox], select{
+    opacity: .7;
